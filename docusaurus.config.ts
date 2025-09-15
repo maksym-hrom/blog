@@ -69,6 +69,14 @@ const config: Config = {
     ],
   ],
 
+  // Enable Markdown features like Mermaid diagrams
+  markdown: {
+    mermaid: true,
+  },
+
+  // Register the Mermaid theme to render diagrams
+  themes: ['@docusaurus/theme-mermaid'],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
